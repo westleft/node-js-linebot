@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-linebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "linebot": "^1.6.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon src/app.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
